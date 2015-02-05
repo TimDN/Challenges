@@ -1,3 +1,7 @@
+/*
+ * Some array operations
+ */
+
 public class challenge178 {
 	public static double[] startingPos = new double[2];
 	public static void main(String[] args) {

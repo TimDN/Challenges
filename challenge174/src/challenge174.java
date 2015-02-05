@@ -6,7 +6,10 @@ import java.util.*;
 import java.util.Map.Entry;
 
 import javax.imageio.ImageIO;
-
+/*
+ * OO Langtons Ant
+ * Messy and not easy to change the color and turn directions
+ */
 public class challenge174 {
 	
 	public static void main(String[] args){
@@ -77,10 +80,10 @@ public class challenge174 {
 				}
 			}
 			else{
-				System.err.print("WTF!!");
+				System.err.print("TurnDirection is not set");
 			}
 			//Set new Heading
-			 ant.setHeading(newAntHeading);
+			ant.setHeading(newAntHeading);
 			ant.moveAnt();
 			//Change color of the square that the ant left
 			Square lastAntSquare = board.getSquare(antPos[0],antPos[1]);

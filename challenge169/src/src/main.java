@@ -1,5 +1,7 @@
 package src;
-
+/*
+ * Rotate an array
+ */
 public class main {
 	
 	public static final int arrayLength = 10;
